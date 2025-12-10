@@ -1,4 +1,3 @@
-
 // backend/index.js (replace or add these lines at top)
 const express = require('express');
 const bodyParser = require('body-parser');
