@@ -1,4 +1,6 @@
-const BASE = 'https://sentiment-app-back.onrender.com';
+
+const BASE = process.env.REACT_APP_API_URL || 'https://sentiment-app-back.onrender.com';
+
 
 export async function analyzeText(text) {
   const res = await fetch(`${BASE}/api/sentiment`, {
