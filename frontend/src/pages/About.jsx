@@ -1,9 +1,9 @@
 import React from "react";
 
 const reviews = [
-  { name: "Alice Johnson", text: "Amazing work! Very professional and creative." },
-  { name: "Bob Smith", text: "Delivered exactly what we needed. Highly recommend!" },
-  { name: "Carol Lee", text: "Friendly, skilled, and always on time." },
+  { name: <strong>"Alice Johnson"</strong>, text: "Amazing work! Very professional and creative." },
+  { name: <strong>"Bob Smith"</strong>, text: "Delivered exactly what we needed. Highly recommend!" },
+  { name: <strong>"Carol Lee"</strong>, text: "Friendly, skilled, and always on time." },
 ];
 
 export default function About() {
@@ -25,15 +25,28 @@ export default function About() {
                 Eng. Elijah Mensah D.
             </strong>
             <p className="mb-4">
-              I’m a developer passionate about building modern, intelligent, and user-friendly applications. 
-              I specialize in <strong>React</strong>, <strong>Node.js</strong>, and <strong>R</strong>, creating solutions that blend software development with AI and data science.
+               I am a passionate and versatile professional with a strong background in <strong>Mechanical Engineering</strong>, 
+               combined with hands-on experience in <strong>Web and App Development</strong>, <strong>Data Science</strong>, <strong>Computer Repair</strong>, and <strong>Networking</strong>.
+                My unique blend of engineering knowledge and digital skills allows me to approach problems with both analytical 
+                precision and creative technical solutions.
+
+                Over the years, I’ve worked on diverse projects—ranging from building full-stack web applications and mobile 
+                interfaces to analyzing complex datasets and repairing computer systems. 
+                Whether it’s developing efficient digital tools, solving hardware and network issues, or applying engineering 
+                principles to real-world challenges, I deliver results with excellence and reliability.
+
+                I enjoy learning, adapting, and upgrading my skills to meet modern industry demands. My goal is to create 
+                solutions that are not only functional but also innovative, user-friendly, and impactful.
+
+                If you are looking for someone who combines engineering discipline with modern tech expertise, I am always 
+                ready to collaborate and bring value to your project or team.
             </p>
             <p>
-              My goal is to keep improving every day and create tools that make a difference. 
-              I value growth, quality, and delivering projects that exceed expectations.
+            My goal is to keep improving every day and create tools that make a difference. 
+            I value growth, quality, and delivering projects that exceed expectations.
             </p>
-          </div>
-        </div>
+            </div>
+            </div>
 
         {/* Experience / Stats */}
         <div className="mt-8 flex flex-wrap gap-6 text-center">

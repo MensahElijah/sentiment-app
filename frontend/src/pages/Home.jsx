@@ -29,7 +29,7 @@ export default function Home() {
     }
     setLoading(true);
     try {
-      const res = await fetch("/api/sentiment", {
+      const res = await fetch('http://localhost:5000/api/sentiment', {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ text })
@@ -85,3 +85,4 @@ export default function Home() {
     </section>
   );
 }
+
