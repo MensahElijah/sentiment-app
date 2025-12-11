@@ -1,5 +1,5 @@
-
-const BASE = process.env.REACT_APP_API_URL || 'https://sentiment-app-back.onrender.com';
+const BASE = process.env.REACT_APP_API_URL || 'http://localhost:5000';
+;
 
 
 export async function analyzeText(text) {
